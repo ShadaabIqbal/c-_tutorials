@@ -482,3 +482,83 @@ ABCDE
 //         i--;
 //     }
 // }
+
+// #include <iostream>
+// using namespace std;
+// int main() 
+// {    
+//          int x= 10, y = 1;
+//          if (++x >10 || x / 0 == 0)
+//             cout << y;
+//          else
+//              cout << x;
+// } 
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int x = 10;
+//     int y = 20;
+//     if(x++ > 10 && ++y > 20 ){
+//     cout << "Inside if ";
+//     } else{
+//     cout << "Inside else ";
+//     }
+//     cout << x << ' ' << y;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// for(int i = 0; i < 5; i = i + 1) {
+//      if(i == 2) 
+//            continue;
+//     cout << i << " ";
+//  }  
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+// 	// Write your code here
+//     // Write your code here
+//     int n = 4;
+
+// }
+
+
+
+
+// #include <iostream>
+// #include <climits>
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cin >> n;
+
+//     int largest = INT_MIN;
+//     int second_largest = INT_MIN;
+
+//     for (int i = 0; i < n; ++i) {
+//         int num;
+//         cin >> num;
+
+//         if (num > largest) {
+//             second_largest = largest;
+//             largest = num;
+//         } else if (num > second_largest && num != largest) {
+//             second_largest = num;
+//         }
+//     }
+
+//     if (second_largest == INT_MIN) {
+//         cout << INT_MIN << endl;
+//     } else {
+//         cout << second_largest << endl;
+//     }
+
+//     return 0;
+// }
